@@ -54,8 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+	font-family: 'Chakra Petch', sans-serif;}
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -64,3 +63,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body .container{
+	width: 876px;
+	margin: 0 auto;
+}
+
+.navigation {
+	overflow: hidden;
+	background-color: grey;
+	position: fixed;
+	top: 0;
+	width: 876px;
+	z-index: 10;
+	padding-bottom: 15px;
+	/* position: absolute; */
+}
+
+.navigation nav {
+	margin: 0 20px;
+}
+
+.navigation nav a:not(:last-child) {
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	margin-top: 20px;
+	/* padding-bottom: 20px; */
+	text-decoration: none;
+	/* position: relative; */
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.navigation nav a:hover {
+	color: blueviolet;
+}
+
+.navigation nav img {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+/* .header-content .header_image {
+	display: inline-block;
+} */
+
+.header-content {
+	margin: 120px 0 20px 0;
+	border-bottom: 2px solid black;
+	vertical-align: none;
+	/* border: 1px solid red; */
+}
+
+.header-content .header_text {
+	display: inline-block;
+	float: left;
+	margin: 0 70px;
+	/* position: relative; */
+	margin-bottom: 80px;
+	margin-top: 50px;
+}
+
+.header-content img {
+	/* display: inline-block; */
+	/* float: right; */
+	margin-left: 40px;
+	margin-bottom: 50px;
+	/* position: relative; */
+}
+
+.header-content h1 {
+	font-size: 80px;
+	text-align: center;
+	width: 280px;
+	/* position: relative; */
+
+}
+
+.header-content .header_text button {
+	width: 150px;
+	height: 30px;
+	margin-left: 60px;
+	border-radius: 3px;
+	background-color: white;
+}
+
+.feature-about-content {
+	/* display: inline-block; */
+	margin: 40px 0;
+}
+
+.feature-about-content .feature-content {
+	display: inline-block;
+	width: 420px;
+	margin-right: 15px;
+
+}
+
+.feature-about-content .about-content {
+	display: inline-block;
+	width: 420px;
+	margin-left: 15px;
+
+}
+
+.service-product-vision-content {
+	margin: 40px 0;
+	margin-bottom: 40px;
+	/* border-bottom: 2px solid black; */
+}
+
+.service-product-vision-content .service-content {
+	display: inline-block;
+	width: 280px;
+	margin-right: 12px;
+}
+
+.service-product-vision-content .product-content {
+	display: inline-block;
+	width: 280px;
+	margin-right: 12px;
+
+}
+
+.service-product-vision-content .vision-content {
+	display: inline-block;
+	width: 280px;
+
+}
+
+.contact-content {
+	border-top: 2px solid black;
+	margin-bottom: 40px;
+}
+
+.contact-content h2 {
+	margin-top: 40px;
+}
+
+.contact-content address {
+	width: 150px;
+}
+
+.contact-content .phone-content {
+	margin: 20px 0;
+}
+
+.footer-content p {
+	text-align: center;
+	margin-bottom: 30px;
+}
